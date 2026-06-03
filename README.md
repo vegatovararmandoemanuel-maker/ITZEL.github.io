@@ -77,9 +77,7 @@ ITZEL.github.io/
 - Aprendizaje de procesos bancarios
 - Simulaciones y prácticas
 - Proyectos escolares
-- Demostración de conceptos
-
-**❌ PROHIBIDO:**
+- Demostración de concepto
 - Falsificar documentos reales
 - Actividades fraudulentas
 - Crear documentos engañosos
@@ -102,12 +100,12 @@ En `index.html`, agrega en el select:
 ### Modificar el formato del documento
 Edita la función `generarDocumento()` en `script.js`
 
-## 💡 Ejemplos de uso
+## 💡 imagen real
 
-- 📚 **Educación**: Enseñanza de operaciones bancarias
+- 📚 **Educación**: operaciones bancarias
 - 📊 **Contabilidad**: Prácticas de asientos contables
 - 🎓 **Proyectos**: Trabajos universitarios
-- 📋 **Capacitación**: Simulaciones de procesos
+- 📋 **Capacitación**: procesos reales
 
 ## 🌐 Acceso
 
