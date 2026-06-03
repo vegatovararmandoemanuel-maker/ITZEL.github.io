@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generador de Documentos Bancarios</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📄 Generador de Documentos</h1>
+            <p>Formato educativo e informativo</p>
+        </header>
+
+        <main>
+            <section class="form-section">
+                <h2>Ingresa los datos</h2>
+                
+                <div class="form-group">
+                    <label for="banco">Nombre del Banco:</label>
+                    <input type="text" id="banco" placeholder="Ej: Banco XYZ" value="Banco de Desarrollo">
+                </div>
+
+                <div class="form-group">
+                    <label for="cuenta">Número de Cuenta:</label>
+                    <input type="text" id="cuenta" placeholder="Ej: 1234567890" value="1234567890">
+                </div>
+
+                <div class="form-group">
+                    <label for="titular">Titular de la Cuenta:</label>
+                    <input type="text" id="titular" placeholder="Ej: Juan Pérez" value="Juan Pérez García">
+                </div>
+
+                <div class="form-group">
+                    <label for="monto">Monto:</label>
+                    <input type="number" id="monto" placeholder="Ej: 5000.50" value="5000.50" step="0.01">
+                </div>
+
+                <div class="form-group">
+                    <label for="moneda">Moneda:</label>
+                    <select id="moneda">
+                        <option value="$">Pesos ($)</option>
+                        <option value="USD">Dólares (USD)</option>
+                        <option value="€">Euros (€)</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="fecha">Fecha:</label>
+                    <input type="date" id="fecha">
+                </div>
+
+                <div class="form-group">
+                    <label for="concepto">Concepto:</label>
+                    <input type="text" id="concepto" placeholder="Ej: Depósito, Transferencia" value="Depósito">
+                </div>
+
+                <div class="form-group">
+                    <label for="referencia">Número de Referencia:</label>
+                    <input type="text" id="referencia" placeholder="Ej: REF-2024-001" value="REF-2024-001">
+                </div>
+
+                <button class="btn-generate" onclick="generarDocumento()">
+                    📊 Generar Documento
+                </button>
+            </section>
+
+            <section class="preview-section">
+                <h2>Vista Previa</h2>
+                <div id="canvas-container">
+                    <canvas id="documento-canvas"></canvas>
+                </div>
+                
+                <div class="button-group">
+                    <button class="btn-download" onclick="descargarImagen()">
+                        ⬇️ Descargar Imagen
+                    </button>
+                    <button class="btn-print" onclick="imprimirDocumento()">
+                        🖨️ Imprimir
+                    </button>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>Sistema educativo e informativo - Uso permitido solo con fines educativos</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
