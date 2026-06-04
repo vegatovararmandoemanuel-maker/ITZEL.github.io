@@ -106,7 +106,13 @@ Edita la función `generarDocumento()` en `script.js`
 - 📊 **Contabilidad**: Prácticas de asientos contables
 - 🎓 **Proyectos**: Trabajos universitarios
 - 📋 **Capacitación**: procesos reales
-
+echo "# bug-free-journey" >> README.md 
+git init 
+git add README.md 
+git commit -m "first commit" 
+git branch -M main 
+git remote add origin https://github.com/vegatovararmandoemanuel-maker/bug-free-journey.git
+ git push -u origin main
 ## 🌐 Acceso
 
 **URL**: https://vegatovararmandoemanuel-maker.github.io/ITZEL.github.io/
