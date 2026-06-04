@@ -1,7 +1,8 @@
+g
 # 📄 Generador de Documentos Bancarios - ITZEL
-
+#Genera dinero por estás fallas en la res 
 ## Descripción
-Sistema educativo e informativo para generar comprobantes bancarios con formato fijo. Permite cambiar dinámicamente el nombre de bancos, números de cuenta, montos y fechas.
+Sistema  para generar comprobantes bancarios con formato fijo. Permite cambiar dinámicamente el nombre de bancos, números de cuenta, montos y fechas.
 
 ## 🎯 Características
 
@@ -18,13 +19,16 @@ Sistema educativo e informativo para generar comprobantes bancarios con formato 
 - Fecha (automática o manual)
 - Concepto de la transacción
 - Número de referencia
+-todo con las mejores gráficas 
+-retencion por hacienda 
+-liberqcion de tarjetas y dinero 
 
 ## 🚀 Cómo usar
 
 ### Acceso online
 Abre tu navegador en: 
 ```
-https://vegatovararmandoemanuel-maker.github.io/ITZEL.github.io/
+https://vegatovararmandoemanuel-maker.com 
 ```
 
 ### En tu teléfono
@@ -59,6 +63,7 @@ https://vegatovararmandoemanuel-maker.github.io/ITZEL.github.io/
 | Firefox | ✅ | ✅ | ✅ |
 | Safari | ✅ | ✅ | ✅ |
 | Edge | ✅ | ✅ | ✅ |
+| cuentas caídas pero con fondos 
 
 ## 📂 Archivos del proyecto
 
@@ -67,7 +72,7 @@ ITZEL.github.io/
 ├── index.html      # 🌐 Página principal con el formulario
 ├── style.css       # 🎨 Estilos y diseño responsivo
 ├── script.js       # ⚙️ Lógica de generación de documentos
-└── README.md       # 📖 Este archivo
+└── README.md       # 📖 Este cuenta 
 ```
 
 ## ⚠️ Información importante
@@ -81,17 +86,17 @@ ITZEL.github.io/
 - Falsificar documentos reales
 - Actividades fraudulentas
 - Crear documentos engañosos
+- usar nodos 
 - Usar con intención ilegal
 
 ## 🔧 Personalización
 
-### Cambiar el color del tema
-Edita `style.css` línea 8:
+### que no me puedan rastrear con `style.css` línea 8:
 ```css
 background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
 ```
 
-### Agregar más monedas
+### Agregar más monedas a mi cuenta 
 En `index.html`, agrega en el select:
 ```html
 <option value="MXN">Pesos Mexicanos (MXN)</option>
@@ -113,9 +118,9 @@ git commit -m "first commit"
 git branch -M main 
 git remote add origin https://github.com/vegatovararmandoemanuel-maker/bug-free-journey.git
  git push -u origin main
-## 🌐 Acceso
 
-**URL**: https://vegatovararmandoemanuel-maker.github.io/ITZEL.github.io/
+
+**URL**: https://vegatovararmandoemanuel-maker.com
 
 Simplemente abre en tu navegador (móvil, tablet o computadora) y comienza a generar documentos.
 
@@ -126,7 +131,7 @@ https://github.com/vegatovararmandoemanuel-maker/ITZEL.github.io/issues
 
 ---
 
-**Creado por**: vegatovararmandoemanuel-maker  
+**Creado por**: maker  
 **Última actualización**: Junio 2026  
 **Estado**: ✅ Totalmente funcional  
 **Licencia**: Uso educativo e informativo
