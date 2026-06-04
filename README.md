@@ -3,8 +3,10 @@
 ## Descripción
 Sistema educativo e informativo para generar comprobantes bancarios con formato fijo. Permite cambiar dinámicamente el nombre de bancos, números de cuenta, montos y fechas.
 
-## 🎯 Características
-
+## 🎯 Característicasunderstand-anything/intermediate/
+.understand-anything/diff-overlay.json
+understand-anything/intermediate/
+.understand-anything/diff-overlay.json
 ✅ **Formulario web responsive** - Funciona perfectamente en móvil, tablet y escritorio  
 ✅ **Generación de imágenes** - Crea comprobantes en formato PNG  
 ✅ **Diseño profesional** - Formato bancario realista para fines educativos  
